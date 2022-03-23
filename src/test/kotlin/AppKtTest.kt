@@ -48,7 +48,7 @@ class AppKtTest {
 
     @Test
     fun cashMaestro() {
-        val testCard = "Maestro"
+        val testCard = ""
         val testSum = 10000
         val testTransfer = 1000
 
@@ -57,7 +57,7 @@ class AppKtTest {
             sumInManth = testSum,
             transferCash = testTransfer
         )
-        assertEquals(0, result)
+        assertEquals(1, result)
     }
 
     @Test
